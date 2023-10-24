@@ -1,0 +1,1128 @@
+outfit "Annihilator Energy Turret"
+	category "Turrets"
+	cost 9400000
+	thumbnail "outfit/wx"
+	"mass" 240
+	"outfit space" -240
+	"weapon capacity" -240
+	"turret mounts" -1
+	weapon
+		sound "iV"
+		"hardpoint sprite" "hardpoint/wx"
+		"hardpoint offset" 10.
+		"hit effect" "SS1"
+		"inaccuracy" .5
+		"turret turn" .9
+		"submunition" "Annihilator shot"
+			offset 4.5 0
+		"submunition" "Annihilator shot"
+			offset -4.5 0
+		velocity 0
+		"velocity override" 40
+		"range override" 2500
+		"lifetime" 0
+		"reload" 75
+		"firing energy" 355
+		"firing force" 30
+		"firing heat" 624
+		"stream"
+	description `An unknown turret from a different universe entirely.`
+
+outfit "Fast Annihilator Energy Turret"
+	category "Turrets"
+	cost 9400000
+	thumbnail "outfit/wx"
+	"mass" 100
+	"outfit space" -240
+	"weapon capacity" -240
+	"turret mounts" -1
+	weapon
+		sound "iV"
+		"hardpoint sprite" "hardpoint/wx"
+			scale .75
+		"hardpoint offset" 10.
+		"hit effect" "SS1"
+		"inaccuracy" 0
+		"turret turn" 1.5
+		"submunition" "Annihilator shot.5"
+			offset 4.5 0
+		"submunition" "Annihilator shot.5"
+			offset -4.5 0
+		velocity 0
+		"velocity override" 45
+		"range override" 2240
+		"lifetime" 0
+		"reload" 45
+		"firing energy" 10
+		"firing force" 30
+		"firing heat" 624
+	description `An unknown turret from a different universe entirely.`
+
+outfit "Fast Homing Annihilator Energy Cannon"
+	category "Guns"
+	cost 9400000
+	thumbnail "outfit/wx"
+	"mass" 100
+	"outfit space" -240
+	"weapon capacity" -240
+	"gun ports" -1
+	weapon
+		sound "acuit"
+		"hit effect" "SS1"
+		"inaccuracy" 0
+		"submunition" "Annihilator shoth.5"
+			offset 4.5 0
+		"submunition" "Annihilator shoth.5"
+			offset -4.5 0
+		velocity 0
+		"velocity override" 50
+		"range override" 3240
+		"lifetime" 0
+		"reload" 65
+		"firing energy" 10
+		"firing force" 30
+		"firing heat" 624
+		"stream"
+
+outfit "Annihilator Energy Cannon"
+	category "Guns"
+	cost 9400000
+	thumbnail "outfit/wx"
+	"mass" 240
+	"outfit space" -240
+	"weapon capacity" -240
+	"gun ports" -1
+	weapon
+		sound "iV"
+		"hit effect" "SS1"
+		"inaccuracy" 0
+		"submunition" "Annihilator shot2"
+			offset 4.5 0
+		"submunition" "Annihilator shot2"
+			offset -4.5 0
+		velocity 0
+		"velocity override" 40
+		"range override" 2500
+		"lifetime" 0
+		"reload" 60
+		"firing energy" 355
+		"firing force" 30
+		"firing heat" 624
+	description `An unknown gun from a different universe entirely.`
+
+outfit "Annihilator Particle Cannon"
+	"display name" "Void Raider Particle Cannon"
+	category "Guns"
+	cost 9400000
+	thumbnail "outfit/dragonflame"
+	"mass" 15
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sound "acuit"
+		"inaccuracy" 0
+		"submunition" "Annihilator shot3"
+			offset 2.0 0
+		"submunition" "Annihilator shot3"
+			offset -2.0 0
+		velocity 0
+		"velocity override" 40
+		"range override" 1060
+		"lifetime" 0
+		"reload" 20
+		"firing energy" 355
+		"firing force" 0
+		"firing heat" 624
+	description `An unknown small gun from a different universe entirely.`
+
+outfit "Fuel Particle Cannon"
+	"display name" "Fuel Void Raider Particle Cannon"
+	category "Guns"
+	cost 9400000
+	thumbnail "outfit/dragonflame"
+	"mass" 15
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sound "acuit"
+		"inaccuracy" 0
+		"submunition" "Annihilator shot3f"
+			offset 2.0 0
+		"submunition" "Annihilator shot3f"
+			offset -2.0 0
+		velocity 0
+		"velocity override" 45
+		"range override" 1500
+		"lifetime" 0
+		"reload" 20
+		"firing energy" 355
+		"firing fuel" 0.75
+		"firing force" 0
+		"firing heat" 624
+	description `An unknown small gun from a different universe entirely.`
+
+
+outfit "Annihilator Particle turret"
+	"display name" "Void Raider particle turret"
+	category "Turrets"
+	cost 9400000
+	thumbnail "outfit/dragonflame"
+	"mass" 15
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/Void particle turret"
+			scale 1.25
+		sound "acuit"
+		"inaccuracy" 0
+		"turret turn" 2.25
+		"submunition" "Annihilator shot3.5"
+			offset 2 0
+		"submunition" "Annihilator shot3.5"
+			offset -2 0
+		velocity 0
+		"velocity override" 40
+		"range override" 960
+		"lifetime" 0
+		"reload" 20
+		"firing energy" 355
+		"firing force" 0
+		"firing heat" 624
+	description `An unknown small turret from a different universe entirely.`
+
+outfit "Annihilator L Particle turret"
+	"display name" "Void Raider Large particle turret"
+	category "Turrets"
+	cost 9400000
+	thumbnail "outfit/dragonflame"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/Heavyparticle"
+			scale 1.25
+		sound "acuit"
+		"inaccuracy" 0
+		"turret turn" 1.25
+		"submunition" "Annihilator shotl3.5"
+			offset 2.75 0
+		"submunition" "Annihilator shotl3.5"
+			offset -2.75 0
+		velocity 0
+		"velocity override" 40
+		"range override" 1540
+		"lifetime" 0
+		"reload" 35
+		"firing energy" 710
+		"firing force" 0
+		"firing heat" 1248
+	description `An unknown large turret from a different universe entirely.`
+
+outfit "Annihilator H Particle Cannon"
+	"display name" "Void Raider homing Particle Cannon"
+	category "Guns"
+	cost 9400000
+	thumbnail "outfit/dragonflame"
+	"mass" 10
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sound "acuit"
+		"submunition" "Annihilator shot4"
+			offset 2.0 0
+		"submunition" "Annihilator shot4"
+			offset -2.0 0
+		"submunition" "Annihilator shot4"
+			offset 6.0 1
+		"submunition" "Annihilator shot4"
+			offset -6.0 1
+		velocity 0
+		"velocity override" 1000
+		"range override" 3000
+		"lifetime" 0
+		"reload" 60
+		"firing energy" 355
+		"firing force" 10
+		"firing heat" 624
+		"stream"
+	description `An unknown homing gun from a different universe entirely.`
+
+outfit "Annihilator Homing Particle turret"
+	"display name" "Void Raider homing Particle turret"
+	category "Turrets"
+	cost 9400000
+	thumbnail "outfit/dragonflame"
+	"mass" 15
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/Void homing turret"
+		sound "acuit"
+		"submunition" "Annihilator shot4.5" 5
+			offset 4.5 0
+			offset 0 0
+			offset -4.5 0
+		"turret turn" 1.75
+		velocity 0
+		"velocity override" 85
+		"range override" 3240
+		"lifetime" 0
+		"reload" 45
+		"firing energy" 355
+		"firing force" 10
+		"firing heat" 624
+	description `An unknown homing turret from a different universe entirely.`
+
+
+outfit "Disruption Proximity Field"
+	category "Turrets"
+	cost 10000000
+	"mass" 0
+	"turret mounts" -1
+	weapon
+		"turret turn" 400
+		"velocity" 1
+		"lifetime" 960
+		"blast radius" 1000
+		"trigger radius" 1000
+		"reload" 1
+		"ion damage" 10
+		"disruption damage" 1
+		"safe"
+
+outfit "Annihilator shot"
+	weapon
+		sprite "projectile/SS"
+			scale .75
+		"hit effect" "ss1" 2
+		"velocity" 40
+		"inaccuracy" .8
+		"lifetime" 62.5
+		"hit force" 80
+		"shield damage" 500
+		"hull damage" 500
+
+outfit "Annihilator shot.5"
+	weapon
+		sprite "projectile/SS"
+			scale .25
+		"hit effect" "ss1" 2
+		"velocity" 45
+		"inaccuracy" 0
+		"lifetime" 49.7777777778
+		"hit force" 25
+		"shield damage" 250
+		"hull damage" 250
+
+outfit "Annihilator shoth.5"
+	weapon
+		sprite "projectile/SS"
+			scale 0.45
+		"hit effect" "ss1" 2
+		"velocity" 50
+		"inaccuracy" 0
+		"lifetime" 64.8
+		"hit force" 25
+		"shield damage" 375
+		"hull damage" 375
+		"acceleration" 5
+		"drag" .1
+		"turn" 1
+		"homing" 5
+		"tracking" 1
+
+outfit "Annihilator shot2"
+	weapon
+		sprite "projectile/SS"
+			scale .75
+		"hit effect" "SS1" 2
+		"velocity" 40
+		"inaccuracy" 0
+		"lifetime" 62.5
+		"hit force" 80
+		"shield damage" 550
+		"hull damage" 550
+
+outfit "Annihilator shot3"
+	weapon
+		sprite "projectile/Vrpc"
+			scale 1
+		"hit effect" "pulse impact"
+		"velocity" 40
+		"inaccuracy" 0
+		"lifetime" 26.5
+		"hit force" 12.5
+		"shield damage" 75
+		"hull damage" 50
+
+
+outfit "Annihilator shot3f"
+	weapon
+		sprite "projectile/Vrpc"
+			scale 1
+		"hit effect" "pulse impact"
+		"velocity" 45
+		"inaccuracy" 0
+		"lifetime" 33.3333333333
+		"hit force" 12.5
+		"shield damage" 75
+		"hull damage" 50
+
+outfit "Annihilator shot3.5"
+	weapon
+		sprite "projectile/Vrpc"
+			scale 1.15
+		"hit effect" "pulse impact"
+		"velocity" 40
+		"inaccuracy" 0
+		"lifetime" 28
+		"hit force" 12.5
+		"shield damage" 50
+		"hull damage" 50
+
+outfit "Annihilator shotl3.5"
+	weapon
+		sprite "projectile/Vrpc"
+			scale 1.75
+		"hit effect" "pulse impact"
+		"velocity" 40
+		"inaccuracy" 0
+		"lifetime" 38.5
+		"hit force" 12.5
+		"shield damage" 175
+		"hull damage" 175
+
+outfit "Annihilator shot4"
+	weapon
+		sprite "projectile/Vrpc"
+			scale 2.25
+		"hit effect" "pulse impact"
+		"velocity" 75
+		"inaccuracy" 0
+		"lifetime" 40
+		"acceleration" 7.5
+		"drag" .1
+		"turn" 2
+		"homing" 5
+		"tracking" 50
+		"hit force" 12.5
+		"shield damage" 100
+		"hull damage" 100
+
+outfit "Annihilator shot4.5"
+	weapon
+		sprite "projectile/Vrpc"
+			scale 2.5
+		"hit effect" "pulse impact"
+		"velocity" 85
+		"inaccuracy" 7.5
+		"lifetime" 38.1176470588
+		"acceleration" 8.75
+		"drag" .1
+		"turn" 1.85
+		"homing" 4.99
+		"tracking" 50
+		"hit force" 12.5
+		"shield damage" 200
+		"hull damage" 150
+
+effect "pulse impact"
+	sprite "effect/pulse impact"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 20
+	"random angle" 360
+	"random spin" 4
+	"random velocity" .6
+	"velocity scale" .5
+
+outfit "Superheavy Annihilator Energy Turret"
+	category "Turrets"
+	cost 9400000
+	thumbnail "outfit/wx"
+	"mass" 950
+	"outfit space" -125
+	"weapon capacity" -125
+	"turret mounts" -1
+	weapon
+		sound "iV"
+		"hardpoint sprite" "hardpoint/wxL"
+			scale .75
+		"hardpoint offset" 10.
+		"hit effect" "SS1"
+		"inaccuracy" 0
+		"turret turn" .65
+		"submunition" "Annihilator shotl"
+			offset 4.5 0
+		"submunition" "Annihilator shotl"
+			offset -4.5 0
+		velocity 0
+		"velocity override" 35
+		"range override" 3500
+		"lifetime" 0
+		"reload" 125
+		"firing energy" 100
+		"firing force" 30
+		"firing heat" 624
+	description "An unknown extra large turret from a different universe entirely."
+
+outfit "Annihilator shotl"
+	weapon
+		sprite "projectile/SS"
+			scale .65
+		"hit effect" "SS1"
+		"velocity" 35
+		"inaccuracy" 0
+		"lifetime" 142.8571428571
+		"hit force" 80
+		"shield damage" 960
+		"hull damage" 960
+
+outfit "Superheavy Annihilator EC"
+	category "Guns"
+	cost 9400000
+	thumbnail "outfit/wx"
+	"mass" 950
+	"outfit space" -1250
+	"weapon capacity" -1250
+	"gun ports" -1
+	weapon
+		"fire effect" "ichra fire"
+		"hit effect" "SS1"
+		"inaccuracy" 0
+		"submunition" "Annihilator shotxlg"
+			offset 4.5 0
+		"submunition" "Annihilator shotxlg"
+			offset -4.5 0
+		velocity 1
+		"velocity override" 35
+		"range override" 5000
+		"lifetime" 1
+		"reload" 75
+		"firing energy" 100
+		"firing force" 30
+		"firing heat" 624
+		"stream"
+description "An unknown extra large gun from a different universe entirely."
+
+outfit "Annihilator shotxlg"
+	weapon
+		sprite "projectile/SS"
+			scale .75
+		"hit effect" "SS1"
+		"velocity" 35
+		"inaccuracy" 0
+		"lifetime" 142.8571428571
+		"hit force" 100
+		"shield damage" 1000
+		"hull damage" 1000
+
+outfit "Skypiercer"
+	category "Turrets"
+	cost 650000
+	thumbnail "outfit/sp"
+	"mass" 3200
+	"outfit space" -3200
+	"weapon capacity" -3200
+	"turret mounts" -1
+	weapon
+		sprite "projectile/proj"
+		sound "spf"
+		"hardpoint sprite" "hardpoint/sp1"
+		"velocity" 3250
+		"fade out" 3.5
+		"turret turn" 0.75
+		"lifetime" 1
+		"reload" 150
+		"firing energy" 1200
+		"firing heat" 1200
+		"shield damage" 2800
+		"hull damage" 2800
+		"cluster"
+		"phasing"
+description `Devastating superheavy lance turret from an unkown universe.` 
+
+outfit "VR-1F Skylance"
+	category "Guns"
+	cost 650000
+	thumbnail "outfit/sp"
+	"mass" 32
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/projf"
+		"fire effect" "ichra fire"
+		sound "spf"
+		"velocity" 900
+		"fade out" 3.5
+		"lifetime" 1
+		"reload" 100
+		"firing energy" 600
+		"firing fuel" 10
+		"firing heat" 600
+		"shield damage" 1400
+		"hull damage" 1400
+		"cluster"
+		"phasing"
+description `Devastating fighter sized beam lance gun from an unkown universe.` 
+
+
+outfit "Skypiercer(stream)"
+	category "Turrets"
+	cost 650000
+	thumbnail "outfit/sp"
+	"mass" 3200
+	"outfit space" -3200
+	"weapon capacity" -3200
+	"turret mounts" -1
+	weapon
+		sprite "projectile/proj1"
+		sound "spf"
+		"hardpoint sprite" "hardpoint/sp1"
+		"velocity" 4250
+		"fade out" 3.5
+		"turret turn" 1
+		"lifetime" 1
+		"reload" 150
+		"firing energy" 1200
+		"firing heat" 1200
+		"shield damage" 3000
+		"hull damage" 3000
+		"stream"
+		"phasing"
+description `Devastating superheavy lance turret from an unkown universe. This is the stream fire variant.`
+
+
+outfit "Vr Armour"
+	"outfit space" 100000
+	"weapon capacity" 100000
+	"engine capacity" 100000
+	"corrosion protection" 10000
+	"discharge protection" 10000
+	"disruption protection" 10000
+	"energy protection" 10000
+	"force protection" 10000
+	"fuel protection" 10000
+	"heat protection" 100
+	"hull protection" .015
+	"ion protection" 10000
+	"leak protection" 10000
+	"piercing protection" 10000
+	"shield protection" .0075
+	"slowing protection" 10000
+	category "Miscellaneous"
+
+outfit "Vr Armour mk2"
+	"hull multiplier" 2
+	"shield multiplier" 2
+	category "Miscellaneous"
+
+outfit "Vr Armour mk3"
+	"drag reduction" 2
+	"inertia reduction" 2
+	category "Miscellaneous"
+
+outfit "Vr Armour mk4"
+	"hull repair rate" 25
+	"shield generation" 25
+	category "Miscellaneous"
+
+outfit "Vr Spinal Mount Upgrade"
+	"display name" " vr spinal mount upgrade"
+	category "Special"
+	thumbnail "outfit/rtf/wheel/black"
+	unplunderable 1
+	"spinal mount" 1
+
+outfit "VR Mega Weightless Shield genorator"
+	"display name" "Vr mega weightless sheild generator."
+	category "Special"
+	thumbnail "outfit/rtf/wheel/cyan"
+	unplunderable 1
+	"shield generation" 50000
+
+outfit "VR Shield Generator"
+	"display name" "VR Shield Generator"
+	category "Special"
+	thumbnail "outfit/rtf/wheel/cyan"
+	unplunderable 1
+	"shield generation" 100
+
+outfit "VR Shield Timer"
+	"display name" "VR Shield Timer"
+	category "Special"
+	thumbnail "outfit/rtf/wheel/cyan"
+	unplunderable 1
+	"shield delay" 60
+	description "This outfit nakes void raider shield generators take longer recharge so theyre balanced.."
+
+outfit "Prototype Fusion turret"
+	category "Turrets"
+	cost 160000000
+	thumbnail "outfit/fct"
+	"mass" 1450
+	"outfit space" -1440
+	"weapon capacity" -1440
+	"turret mounts" -1
+	"required crew" 12
+	weapon
+		sprite "projectile/fusion gun bolt"
+			"no repeat"
+			"frame rate" .25
+		"hardpoint sprite" "hardpoint/FCT1"
+		"hardpoint offset" 10.
+		sound "dragonflame"
+		"fire effect" "fusion cannon fire"
+		"die effect" "fusion cannon cloud" 5
+		"hit effect" "fusion cannon impact" 20
+		"hit effect" "fusion cannonspark" 40
+		"hit effect" "fusion cannon explosion 1" 10
+		"hit effect" "fusion cannon explosion 2" 10
+		"hit effect" "fusion cannon explosion 3" 10
+		"hit effect" "fusion cannon nuke" 1
+		"live effect" "fusion cannon cloud" 10
+		"inaccuracy" 0.2
+		"turret turn" 0.75
+		"velocity" 66
+		"lifetime" 87.5
+		"reload" 125.5
+		"firing energy" 5000
+		"firing heat" 600
+		"shield damage" 1250
+		"relative shield damage" .009
+		"hull damage" 2550
+		"relative hull dmage" .0095
+		"safe"
+		"stream"
+		"hit force" 10
+	description "This is a dangerous prototype Fusion Cannon turret with a turret base modified from a different universe, a deadly, massive turret weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
+	
+effect "fusion cannon fire"
+	sprite "effect/plasma fire"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 12
+
+effect "fusion cannon impact"
+	sprite "effect/plasma impact"
+		"frame rate" 20
+		"start frame" 0
+		"no repeat"
+	"lifetime" 30
+	"random frame rate" 15
+	"random velocity" 15
+	"velocity scale" 0.
+	"random angle" 360
+
+effect "fusion cannon explosion 1"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 28
+	"random angle" 360
+	"random velocity" 7
+	"random spin" 3
+	"random frame rate" 10
+	"velocity scale" .0
+	
+effect "fusion cannon explosion 2"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 28
+	"random angle" 360
+	"random velocity" 10
+	"random spin" 3
+	"random frame rate" 10
+	"velocity scale" .0
+	
+effect "fusion cannon explosion 3"
+	sprite "effect/explosion/medium"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 28
+	"random angle" 360
+	"random velocity" 13
+	"random spin" 3
+	"random frame rate" 10
+	"velocity scale" .0
+	
+effect "fusion cannon nuke"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 32
+	sound "explosion nuke"
+	"lifetime" 15
+	"random angle" 360
+	"random velocity" 1
+	"random spin" 3
+	"velocity scale" .0
+
+effect "fusion cannonspark"
+	sprite "effect/static"
+		"no repeat"
+		"frame rate" 30
+	"lifetime" 10
+	"random angle" 360
+	"random spin" 10
+	"random velocity" 30
+	"velocity scale" .0
+	"random frame rate" 10
+
+effect "fusion cannon cloud"
+	sprite "effect/plasma cloud"
+		"no repeat"
+		"frame rate" 15
+	"lifetime" 20
+	"random angle" 360
+	"random velocity" 10
+	"velocity scale" .2
+
+outfit "Dragonflame turret"
+	category "Secondary Weapons"
+	cost 150000000
+	thumbnail "outfit/dragonflame"
+	"mass" 300
+	"outfit space" -300
+	"weapon capacity" -300
+	"required crew" 15
+	"turret mounts" -1
+	"spinal mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/wx"
+		"hardpoint offset" 0
+		sound "dragonflame"
+		"fire effect" "dragonflame"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"velocity" 1000
+		"turret turn" 0.35
+		"lifetime" 1
+		"reload" 250
+		"firing energy" 16000
+		"firing heat" 4000
+		"firing force" 0
+		"firing fuel" 225
+		"firing disruption" 100
+		"hit force" 20
+		"shield damage" 2500
+		"hull damage" 1500
+		"heat damage" 500
+		"blast radius" 150
+		"safe"
+	description "The ancient Sheragi superweapon is simple in concept, but the cost involved in developing something like it is exorbitant. It's hard to envision what could have motivated the creation of such a thing. It uses an obscene amount of energy to trigger an extremely powerful thermonuclear reaction, directing most of the energy from the resulting explosion forwards in a devastatingly powerful beam of gamma radiation."
+
+effect "dragonflame"
+	sprite "effect/dragonflame"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 25
+	"velocity scale" 1
+
+effect "bright hit"
+	sprite "effect/explosion/nuke"
+		"no repeat"
+		"frame rate" 60
+	sound "explosion nuke"
+	"lifetime" 7
+	"random angle" 360
+	"random spin" 30
+	"velocity scale" 0.005
+
+effect "dragonflame plasma"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 25
+	"random frame rate" 20
+	"random spin" 5
+	"random angle" 15
+	"random velocity" 40
+	"velocity scale" 0.002
+
+effect "dragonflame debris"
+	sprite "effect/bolide"
+		"no repeat"
+		"frame rate" 6
+	"lifetime" 60
+	"random frame rate" 6
+	"random angle" 25
+	"random spin" 60
+	"random velocity" 30
+	"velocity scale" 0.001
+
+outfit "Void Raider Flagship Engines"
+	category "Engines"
+	cost 100000000
+	thumbnail "outfit/fusiondrive"
+	"mass" 5
+	"outfit space" -1
+	"engine capacity" -1
+	"turn" 8000
+	"turning energy" 10
+	"turning heat" 5
+	"thrust" 600
+	"thrusting energy" 20
+	"thrusting heat" 10
+	"reverse thrust" 900
+	"reverse thrusting energy" 7.5
+	"reverse thrusting heat" 5
+	"afterburner thrust" 800
+	"afterburner energy" 120
+	"afterburner heat" 10
+	"afterburner effect" "fusion afterburner effect"
+	"flare sprite" "effect/pug flare/huge"
+		scale 1.75
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic huge"
+	"steering flare sprite" "effect/pug flare/huge"
+		scale 0.75
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic medium"
+	"reverse flare sprite" "effect/pug flare/huge"
+		scale 1.25
+		"frame rate" 30
+		"rewind"
+	"reverse flare sound" "atomic large"
+	unplunderable 1
+
+effect "fusion afterburner effect"
+	sprite "effect/pug flare/huge"
+		scale 2.5
+		"rewind"
+		"frame rate" 30
+	sound "atomic medium"
+	"lifetime" 1
+
+outfit "Void raider Anti-Missile"
+	category "Turrets"
+	cost 845000
+	thumbnail "outfit/sheragiam"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	swizzle 6
+	weapon
+		"hardpoint sprite" "hardpoint/sheragiam"
+		"hardpoint offset" 1.5
+		"hit effect" "sheragiam"
+		"anti-missile" 75
+		"velocity" 640
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 220
+		"firing heat" 440
+
+outfit "X1111 Ion Reverse Thruster"
+	category "Engines"
+	"cost" 12000
+	thumbnail "outfit/reverse thruster ion"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"reverse thrust" 650
+	"reverse thrusting energy" .6
+	"reverse thrusting heat" .9
+	"reverse flare sprite" "effect/fusionflare"
+		"frame rate" 1.2
+	"reverse flare sound" "ion tiny"
+	description "Traditionally, ships turn around so that they can use their main thrusters for deceleration. Some ships, however, are too ungainly for such maneuvers to be convenient, or carry sensitive cargo that must not be being swung around quickly. For such ships, a reverse thruster allows them to apply thrust smoothly backwards."
+	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+
+outfit "X11 Ion Afterburner"
+	category "Engines"
+	"cost" 12000
+	thumbnail "outfit/reverse thruster ion"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"afterburner thrust" 1000
+	description "Traditionally, ships turn around so that they can use their main thrusters for deceleration. Some ships, however, are too ungainly for such maneuvers to be convenient, or carry sensitive cargo that must not be being swung around quickly. For such ships, a reverse thruster allows them to apply thrust smoothly backwards."
+	description "	Because a reverse thruster must be facing forwards, it must be installed in the weapon section of your ship instead of the engine section."
+
+outfit "Ichra-04 E-Railgun Turret"
+	category "Turrets"
+	cost 2150000
+	thumbnail "outfit/geeva ichra railgun turret"
+	"mass" 91
+	"outfit space" -91
+	"weapon capacity" -91
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/ichra shot"
+		"scale" 0.5
+		"hardpoint sprite" "hardpoint/geeva ichra railgun turret hp"
+		"hardpoint offset" 0.
+		sound "gw ichra railgun fire"
+		"hit effect" "ichra impact"
+		"fire effect" "ichra fire"
+		"inaccuracy" .9
+		"velocity" 80
+		"lifetime" 30
+		"reload" 120
+		"turret turn" 2.1
+		"firing energy" 887
+		"firing heat" 980
+		"hit force" 80
+		"shield damage" 1050
+		"hull damage" 1254
+		"ion damage" 12
+	description `Light turret version of the Ichra-04 Energy Railgun with the turret itself partially re-engineered from older larger twin-mounted turret to be lighter and easier to install.`
+
+outfit "Ichra-04 E-Railgun Dual Turret"
+	category "Turrets"
+	cost 8150000
+	thumbnail "outfit/geeva ichra railgun dual turret"
+	"mass" 225
+	"outfit space" -225
+	"weapon capacity" -225
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		"hardpoint sprite" "hardpoint/geeva ichra railgun dual turret hp"
+		"hardpoint offset" 5.
+		"submunition" "ichra shot"
+			offset 4.5 0
+		"submunition" "ichra shot"
+			offset -4.5 0
+		sound "gw ichra railgun fire"
+		"fire effect" "ichra fire"
+		"inaccuracy" .1
+		"velocity" 0
+		"velocity override" 80
+		"lifetime" 0
+		"reload" 60
+		"turret turn" 2
+		"firing energy" 887
+		"firing heat" 820
+	description `The original form of the Ichra-04 E-Railgun, 2-gun mounted on a turret complete with highly advanced stabilizing system and rotor allowing it to fire at maximum accuracy and turn as fast as something half of its size. It is one of the largest and most powerful weapon the Geeva is capable of making, although barely. Due to the cost and difficulty of manufacturing one very few were made since the evacuation and fewer in active service. Only few are still being built today mostly to maintain the expertise for the time it may be required again.`
+
+outfit "Ichra-04 E-Railgun"
+	category "Guns"
+	cost 1800000
+	thumbnail "outfit/geeva ichra railgun"
+	"mass" 72
+	"outfit space" -72
+	"weapon capacity" -72
+	"gun ports" -1
+	weapon
+		sprite "projectile/ichra shot"
+		sound "gw ichra railgun fire"
+		"hit effect" "ichra impact"
+		"fire effect" "ichra fire"
+		"inaccuracy" .1
+		"velocity" 80
+		"lifetime" 30
+		"reload" 120
+		"firing energy" 887
+		"firing heat" 980
+		"hit force" 80
+		"shield damage" 1050
+		"hull damage" 1254
+		"ion damage" 12
+	description "Geeva long-ranged energy railgun firing unidentified matter synthesized at the core of the gun. First used during the evacuation used as one of their primary ship to ship weapon but with limited production due to its alien design and construction making it one of the more difficult weapon to mass produce and were reserved for wartime use only. Finishing quality of these railguns can vary quite a bit among different manufacturers due to difficulty of making them even such it's mostly cosmetic and all of the weapon in stock don't have any notable performance difference. It was said that there's only one place in the Geeva space that can produce reliable core component for it."
+
+outfit "Ichra-02 EF-Railgun"
+	category "Guns"
+	cost 1800000
+	thumbnail "outfit/geeva ichra railgun"
+	"mass" 10
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/ichra shot"
+		sound "gw ichra railgun fire"
+		"hit effect" "ichra impact"
+		"fire effect" "ichra fire"
+		"inaccuracy" .1
+		"velocity" 80
+		"lifetime" 23
+		"reload" 60
+		"firing energy" 447
+		"firing fuel" 10
+		"firing heat" 380
+		"hit force" 40
+		"shield damage" 550
+		"hull damage" 524
+		"ion damage" 12
+	description "Geeva long-ranged energy railgun for fighters firing unidentified matter synthesized at the core of the gun. First used during the evacuation used as one of their primary ship to ship weapon but with limited production due to its alien design and construction making it one of the more difficult weapon to mass produce and were reserved for wartime use only. Finishing quality of these railguns can vary quite a bit among different manufacturers due to difficulty of making them even such it's mostly cosmetic and all of the weapon in stock don't have any notable performance difference. It was said that there's only one place in the Geeva space that can produce reliable core component for it."
+
+outfit "ichra shot"
+	weapon
+		sprite "projectile/ichra shot"
+			scale 0.5
+		"hit effect" "ichra impact"
+		"velocity" 80
+		"inaccuracy" .1
+		"lifetime" 30
+		"hit force" 80
+		"shield damage" 1050
+		"hull damage" 1254
+		"ion damage" 12
+
+effect "ichra fire"
+	sprite "effect/ichra fire"
+		"frame rate" 30
+		"no repeat"
+	lifetime 10
+
+effect "ichra impact"
+	sprite "effect/ichra impact"
+		"frame rate" 30
+		"no repeat"
+	lifetime 10
+	"absolute velocity" -.1
+
+outfit "Typhoon Pod(fuel)"
+	category "Secondary Weapons"
+	cost 100000
+	thumbnail "outfit/typhoonpod"
+	"mass" 6
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 0
+		"velocity override" 6
+		"lifetime" 1100
+		"range override" 6600
+		"reload" 252
+		"burst count" 2
+		"burst reload" 120
+		"firing energy" 4
+		"firing fuel" 1
+		"firing heat" 50
+		"acceleration" .6
+		"drag" .1
+		"turn" 1.5
+		"homing" 4
+		"optical tracking" .9
+		"tracking" .5
+		"shield damage" 1050
+		"hull damage" 1050
+		"hit force" 450
+		"missile strength" 40
+	description "Typhoon Torpedoes are an improved torpedo technology; they do considerably more damage than ordinary torpedoes. However, they are also much slower, because they are intended mostly for use against large and slow-moving capital ships. As a result, sufficiently skilled pilots can often dodge around them."
+	description "	Pods enable fighters and other light craft to carry small quantities of Typhoon Torpedoes into battle while retaining enough space for other weapons. Large ships are better off with full-size launchers."s.".""e for other weapons. Large ships are better off with full-size launchers."s."." with full-size launchers."s."."
